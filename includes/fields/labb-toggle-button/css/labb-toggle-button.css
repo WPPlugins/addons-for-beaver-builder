@@ -1,0 +1,41 @@
+
+.labb-toggle-button {
+    font-family: Helvetica, Verdana, sans-serif;
+    overflow: hidden;
+    }
+.labb-toggle-button input[type="radio"] {
+    display: none;
+    }
+.labb-toggle-button label {
+    float: left;
+    }
+.labb-toggle-button label {
+    display: inline-block;
+    width: 50px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: none;
+    padding: 4px;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    }
+.labb-toggle-button label:hover {
+    cursor: pointer;
+    }
+.labb-toggle-button input:checked + label {
+    background: #1e8cbe;
+    border-color: #0074a2;
+    color: #fff;
+    }
+.labb-toggle-button label:first-of-type {
+    border-radius: 3px 0 0 3px;
+    }
+.labb-toggle-button label:last-of-type {
+    border-radius: 0 3px 3px 0;
+    }

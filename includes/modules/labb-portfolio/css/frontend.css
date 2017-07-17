@@ -1,0 +1,258 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.labb-portfolio-wrap .labb-portfolio-header {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  clear: both; }
+.labb-portfolio-wrap .labb-heading {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  clear: none;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: left;
+  display: inline-block;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 30px; }
+  .labb-dark-bg .labb-portfolio-wrap .labb-heading {
+    color: #e5e5e5; }
+.labb-portfolio-wrap .labb-taxonomy-filter {
+  display: inline-block;
+  position: relative;
+  float: right;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #ddd; }
+  .labb-dark-bg .labb-portfolio-wrap .labb-taxonomy-filter {
+    border-color: #666; }
+  @media only screen and (max-width: 800px) {
+    .labb-portfolio-wrap .labb-taxonomy-filter {
+      display: block;
+      float: none;
+      margin-bottom: 30px; } }
+  .labb-portfolio-wrap .labb-taxonomy-filter .labb-filter-item {
+    display: inline-block;
+    margin: 0 12px 0 0;
+    padding: 0;
+    font-style: italic; }
+    @media only screen and (max-width: 479px) {
+      .labb-portfolio-wrap .labb-taxonomy-filter .labb-filter-item {
+        margin-right: 8px; } }
+    .labb-portfolio-wrap .labb-taxonomy-filter .labb-filter-item a {
+      font-size: 15px;
+      line-height: 24px;
+      padding: 0 15px 8px;
+      -webkit-transition: all 0.4s ease-in-out 0s;
+      -moz-transition: all 0.4s ease-in-out 0s;
+      -ms-transition: all 0.4s ease-in-out 0s;
+      transition: all 0.4s ease-in-out 0s;
+      display: block; }
+      @media only screen and (max-width: 479px) {
+        .labb-portfolio-wrap .labb-taxonomy-filter .labb-filter-item a {
+          padding: 0 10px 8px; } }
+    .labb-portfolio-wrap .labb-taxonomy-filter .labb-filter-item.labb-active {
+      border-bottom: 2px solid #888; }
+      .labb-dark-bg .labb-portfolio-wrap .labb-taxonomy-filter .labb-filter-item.labb-active {
+        border-color: #aaa; }
+    .labb-portfolio-wrap .labb-taxonomy-filter .labb-filter-item:last-child {
+      margin-right: 0; }
+.labb-portfolio-wrap .labb-portfolio .labb-portfolio-item {
+  margin-bottom: 30px; }
+  @media only screen and (max-width: 1024px) {
+    .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item {
+      margin-bottom: 20px; } }
+  .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item.labb-zero-margin {
+    margin: 0; }
+  .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .hentry {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    box-shadow: none; }
+  .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image {
+    position: relative;
+    overflow: hidden; }
+    .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image img {
+      display: block;
+      -webkit-transition: all 0.4s ease-in-out 0s;
+      -moz-transition: all 0.4s ease-in-out 0s;
+      -ms-transition: all 0.4s ease-in-out 0s;
+      transition: all 0.4s ease-in-out 0s; }
+      .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image img:hover {
+        -webkit-filter: brightness(80%);
+        -moz-filter: brightness(80%);
+        -ms-filter: brightness(80%);
+        filter: brightness(80%); }
+    .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image .labb-image-overlay {
+      position: absolute;
+      left: 0;
+      top: 0;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      filter: alpha(opacity=0);
+      -moz-opacity: 0;
+      opacity: 0;
+      -webkit-transition: opacity 0.4s ease-in-out 0s;
+      -moz-transition: opacity 0.4s ease-in-out 0s;
+      -ms-transition: opacity 0.4s ease-in-out 0s;
+      transition: opacity 0.4s ease-in-out 0s; }
+    .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image .labb-image-info {
+      display: block;
+      z-index: 120;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      opacity: 0;
+      filter: alpha(opacity=0);
+      -webkit-transition: opacity 0.4s ease-in-out 0s;
+      -moz-transition: opacity 0.4s ease-in-out 0s;
+      -ms-transition: opacity 0.4s ease-in-out 0s;
+      transition: opacity 0.4s ease-in-out 0s; }
+      .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image .labb-image-info .labb-entry-info {
+        text-align: center;
+        display: block;
+        position: absolute;
+        height: 82px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 100%; }
+      .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image .labb-image-info h3 {
+        padding: 10px;
+        margin: 0;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #fff; }
+        @media only screen and (max-width: 1024px) {
+          .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image .labb-image-info h3 {
+            font-size: 18px;
+            line-height: 26px; } }
+        .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image .labb-image-info h3 a {
+          display: inline;
+          color: #fff;
+          -webkit-transition: all 0.3s ease-in-out 0s;
+          -moz-transition: all 0.3s ease-in-out 0s;
+          -ms-transition: all 0.3s ease-in-out 0s;
+          transition: all 0.3s ease-in-out 0s;
+          border-bottom: 1px solid transparent; }
+          .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image .labb-image-info h3 a:hover {
+            border-bottom: 1px solid #ccc; }
+      .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image .labb-image-info .labb-terms {
+        display: block;
+        color: #f9f9f9; }
+        .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image .labb-image-info .labb-terms a {
+          color: #ddd;
+          position: relative;
+          display: inline;
+          zoom: 1;
+          font-size: 14px;
+          line-height: 26px;
+          font-style: italic;
+          -webkit-transition: color 0.3s ease-in-out 0s;
+          -moz-transition: color 0.3s ease-in-out 0s;
+          -ms-transition: color 0.3s ease-in-out 0s;
+          transition: color 0.3s ease-in-out 0s; }
+          .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image .labb-image-info .labb-terms a:hover {
+            color: #fff; }
+      .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image .labb-image-info .labb-lightbox-item {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        font-size: 14px;
+        line-height: 1;
+        display: block;
+        padding: 12px;
+        background: transparent;
+        -webkit-transition: background 0.3s ease-in-out 0s;
+        -moz-transition: background 0.3s ease-in-out 0s;
+        -ms-transition: background 0.3s ease-in-out 0s;
+        transition: background 0.3s ease-in-out 0s; }
+        .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image .labb-image-info .labb-lightbox-item:hover {
+          background: rgba(0, 0, 0, 0.5); }
+    .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image:hover {
+      background: rgba(0, 0, 0, 0.3); }
+      .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image:hover .labb-image-info {
+        opacity: 1; }
+      .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-project-image:hover .labb-image-overlay {
+        opacity: 0.5; }
+  .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-entry-text-wrap {
+    text-align: center;
+    max-width: 650px;
+    margin: 20px auto 0; }
+  .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .entry-title {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: normal;
+    margin-bottom: 10px; }
+    .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .entry-title:after, .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .entry-title:before {
+      display: none; }
+    .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .entry-title a {
+      -webkit-transition: all 0.4s ease-in-out 0s;
+      -moz-transition: all 0.4s ease-in-out 0s;
+      -ms-transition: all 0.4s ease-in-out 0s;
+      transition: all 0.4s ease-in-out 0s;
+      color: #333; }
+      .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .entry-title a:hover {
+        color: #888; }
+    .labb-dark-bg .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .entry-title a {
+      color: #e0e0e0; }
+      .labb-dark-bg .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .entry-title a:hover {
+        color: #fff; }
+  .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-entry-meta span {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    color: #999; }
+    .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-entry-meta span:after {
+      content: '//';
+      padding-left: 6px;
+      padding-right: 6px; }
+    .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-entry-meta span:first-child {
+      border: none;
+      padding-left: 0; }
+    .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-entry-meta span:last-child:after {
+      display: none; }
+    .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-entry-meta span a {
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      -moz-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+      font-style: normal; }
+    .labb-dark-bg .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .labb-entry-meta span {
+      color: #707070; }
+  .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .entry-summary {
+    margin: 15px auto 0;
+    padding: 0; }
+    .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .entry-summary:before {
+      width: 35px;
+      height: 1px;
+      background: #aaa;
+      display: block;
+      content: "";
+      text-align: center;
+      margin: 0 auto 15px; }
+    .labb-dark-bg .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .entry-summary {
+      color: #999; }
+      .labb-dark-bg .labb-portfolio-wrap .labb-portfolio .labb-portfolio-item .entry-summary:before {
+        background: #505050; }
+
+/*# sourceMappingURL=frontend.css.map */

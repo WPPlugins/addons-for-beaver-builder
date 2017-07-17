@@ -1,0 +1,6 @@
+.labb-carousel .labb-carousel-item {
+    position: relative;
+    }
+.labb-carousel.labb-container {
+    max-width: none;
+    }

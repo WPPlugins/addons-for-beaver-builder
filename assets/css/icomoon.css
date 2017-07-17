@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'labb-icomoon';
+    src:    url('fonts/icomoon/icomoon.eot?bh4obs');
+    src:    url('fonts/icomoon/icomoon.eot?bh4obs#iefix') format('embedded-opentype'),
+        url('fonts/icomoon/icomoon.ttf?bh4obs') format('truetype'),
+        url('fonts/icomoon/icomoon.woff?bh4obs') format('woff'),
+        url('fonts/icomoon/icomoon.svg?bh4obs#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="labb-icon-"], [class*=" labb-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'labb-icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.labb-icon-fit-to:before {
+    content: "\e916";
+    }
+.labb-icon-full-screen:before {
+    content: "\e917";
+    }
+.labb-icon-arrow-left2:before {
+    content: "\e918";
+    }
+.labb-icon-arrow-left3:before {
+    content: "\e919";
+    }
+.labb-icon-arrow-right2:before {
+    content: "\e91a";
+    }
+.labb-icon-arrow-right3:before {
+    content: "\e91b";
+    }
+.labb-icon-start:before {
+    content: "\e91c";
+    }
+.labb-icon-close:before {
+    content: "\e911";
+    }
+.labb-icon-menu:before {
+    content: "\e914";
+    }
+.labb-icon-menu-2:before {
+    content: "\e915";
+    }
+.labb-icon-email:before {
+    content: "\e910";
+    }
+.labb-icon-plus:before {
+    content: "\e912";
+    }
+.labb-icon-arrow-right-toggle:before {
+    content: "\e913";
+    }
+.labb-icon-arrow-left:before {
+    content: "\e900";
+    }
+.labb-icon-arrow-right:before {
+    content: "\e901";
+    }
+.labb-icon-aim:before {
+    content: "\e902";
+    }
+.labb-icon-behance:before {
+    content: "\e903";
+    }
+.labb-icon-dribbble:before {
+    content: "\e904";
+    }
+.labb-icon-facebook:before {
+    content: "\e905";
+    }
+.labb-icon-flickr:before {
+    content: "\e906";
+    }
+.labb-icon-googleplus:before {
+    content: "\e907";
+    }
+.labb-icon-linkedin:before {
+    content: "\e908";
+    }
+.labb-icon-pinterest:before {
+    content: "\e909";
+    }
+.labb-icon-skype:before {
+    content: "\e90a";
+    }
+.labb-icon-twitter:before {
+    content: "\e90b";
+    }
+.labb-icon-vimeo:before {
+    content: "\e90c";
+    }
+.labb-icon-zerply:before {
+    content: "\e90d";
+    }
+.labb-icon-quote:before {
+    content: "\e90e";
+    }
+.labb-icon-video-play:before {
+    content: "\e90f";
+    }
+.labb-icon-instagram:before {
+    content: "\ea92";
+    }
